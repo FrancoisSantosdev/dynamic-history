@@ -1,0 +1,41 @@
+/* Estilos para a barra lateral */
+.sidebar {
+    width: 250px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Estilos para a lista de categorias */
+#categories-list {
+    list-style: none;
+    padding: 0;
+}
+
+#categories-list li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para a lista de subcategorias */
+#categories-list ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#categories-list ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para os links de sites */
+.site-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 0;
+}
+
+.site-link:hover {
+    background-color: #ddd;
+}

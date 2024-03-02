@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Dynamic History",
+    "description": "Vizualizar de forma dinamica o seu historico de pesquisas .",
+    "version": "10.00.01",
+    "author": "FrancoisSantosdev",
+    "browser_action": {
+        "default_title": "Dynamic History",
+        "default_popup": "index.html"
+    },
+    
+    "action": {
+        "default_popup": "index.html"
+
+    },    
+   
+    "permissions": [
+      "storage","history",
+        "activeTab"
+    ]
+
+   
+  }
